@@ -1,0 +1,23 @@
+tb_jenis
+INSERT INTO tb_jenis (NamaJenis_, KodeJenis_) VALUES
+('Alat Tulis' , 'JN5601'),
+('Elektronik' , 'JN5602'),
+('Perkakas' , 'JN5603'),
+('Mabel' , 'JN5604'),
+('Alat Kebersihan' , 'JN5605'),
+('Kendaraan' , 'JN5606')
+
+tb_ruang
+INSERT INTO tb_ruang (NamaRuang_, KodeRuang_) VALUES
+('Ruang Guru', 'RG5601'),
+('Koperasi', 'RG5602'),
+('Tata Usaha', 'RG5603'),
+('Gudang', 'RG5604'),
+('Perpustakaan', 'RG5605'),
+('Ruang Osis', 'RG5606'),
+('Bengkel Mesin', 'RG5607'),
+('Lab Elektro', 'RG5608'),
+('Bengkel Bangunan', 'RG5609'),
+('Lab RPL', 'RG5610'),
+('Lab Multimedia', 'RG5611'),
+('Lab TKJ', 'RG5612')
