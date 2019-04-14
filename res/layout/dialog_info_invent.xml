@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/dp16">
+
+    <TextView
+        android:id="@+id/txtNamaInvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="Gergaji"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Kondisi Barang "
+            android:textSize="@dimen/text16"/>
+
+        <TextView
+            android:id="@+id/txtKondisiInvent"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text16"
+            android:maxLines="1"
+            tools:text="Kurang Baik"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Keterangan Barang "
+            android:textSize="@dimen/text16"/>
+
+        <TextView
+            android:id="@+id/txtKetInvent"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text16"
+            android:maxLines="1"
+            tools:text="Barang Habis Pakai"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Jenis Barang "
+            android:textSize="@dimen/text16"/>
+
+        <TextView
+            android:id="@+id/txtJenisInvent"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text16"
+            android:maxLines="1"
+            tools:text="Perkakas"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Berada di"
+            android:textSize="@dimen/text16"/>
+
+        <TextView
+            android:id="@+id/txtRuangInvent"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text16"
+            android:maxLines="1"
+            tools:text="Gudang Bangunan"/>
+
+    </LinearLayout>
+
+</LinearLayout>

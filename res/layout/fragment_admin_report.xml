@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simayodika.inventaris.views.admin.fragments.AdminReport">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/fragment">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeListReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnTotal"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="Total Report"/>
+
+                    <Button
+                        android:id="@+id/btnDatePicker"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="Select Date"/>
+
+                    <TextView
+                        android:id="@+id/txtSelectDate"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text16"
+                        android:text="Selected Date"/>
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvListReport"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

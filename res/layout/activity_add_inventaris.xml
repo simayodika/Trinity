@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simayodika.inventaris.views.admin.AddInventarisActivity"
+    android:padding="@dimen/dp8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Nama Barang"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtNamaInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:inputType="textCapWords"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Kondisi"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnKondisiInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:entries="@array/kondisiInvent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Keterangan"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnKetInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:entries="@array/ketInvent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Jumlah"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtJumlahInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Jenis"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnJenisInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Ruang"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnRuangInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp16"
+            android:text="Tambah"
+            android:textSize="@dimen/text16"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
